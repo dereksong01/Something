@@ -1,4 +1,5 @@
 # Something
+Shruthi Venkata, Sean Roudnitsky, Derek Song
 
 Our Algorithm
 1) First, compare the target with the bottom left value.
