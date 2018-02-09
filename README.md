@@ -12,7 +12,8 @@ We need to design an algorithm that can find the position of an integer in O(n) 
 
 Our Algorithm:   
 Step 1) First, compare the target with the bottom left value.  
-Step 2) While the index < n, if the target is greater, move to the right. If it is smaller, move up.   
-        If it finds the target, return the coordinates.  
+Step 2) While the index < n, if the target is greater, move to the right. If it is smaller, move up.                                   If it finds the target, return the coordinates.  
         This repeated until we are out of bounds.  
 Step 3) Return (-1, -1) if no coordinates were previously returned.  
+
+# Experiment Methodology
