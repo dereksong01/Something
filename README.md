@@ -17,3 +17,4 @@ Step 2) While the index < n, if the target is greater, move to the right. If it 
 Step 3) Return (-1, -1) if no coordinates were previously returned.  
 
 # Experiment Methodology
+In MFDriver.java, the main method contains a while loop that populates an array of nxn elements, starting at 10x10 and incrementing by 100 values up to a 100000x100000 array. Each time, it uses System.currenttimemillis to determine the amount of time that has elapsed from the start to end of the finder() method (which uses the algorithm to find an int). These values can be stored in a csv file when, in the terminal, you run by entering `java MFDriver >>runTimes.csv`.
