@@ -20,7 +20,7 @@ Step 3) Return (-1, -1) if no coordinates were previously returned.
 In MFDriver.java, the main method contains a while loop that populates an array of nxn elements, starting at 10x10 and incrementing by 100 values up to a 100000x100000 array. Each time, it uses System.currenttimemillis to determine the amount of time that has elapsed from the start to end of the finder() method (which uses the algorithm to find an int). These values can be stored in a csv file when, in the terminal, you run by entering `java MFDriver >>Data.csv`.
 
 # Results   
-Link to spreadsheat with graph of result: https://docs.google.com/spreadsheets/d/114B7jSD60uovatGRFzjDitkmeAAe_fdN-48uSmRre-4/edit?usp=sharing
+Link to spreadsheet with graph of result: https://docs.google.com/spreadsheets/d/114B7jSD60uovatGRFzjDitkmeAAe_fdN-48uSmRre-4/edit?usp=sharing
 
 # Conclusions  
 Due to some bug in our code, after n reaches a size of about 3500, the graph dips down. Beofer this dip however, the line appears relatively linear. 
